@@ -18,7 +18,7 @@ Muğla Sıtkı Koçman Üniversitesi Bilgisayar ve Bilişim Topluluğu'nun hazı
 <strong>İpucu</strong>: microsoft NTML,?
 
 <strong>Çözüm</strong>: Soruda verilen hash değerini NTLM formatıyla decrypt ettiğimizde "1234567890" sonucuna ulaştık.
-<h3 style="text-align: center;"><img class="aligncenter size-full wp-image-155" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/ntlm.png" alt="" width="497" height="78" />
+<h3 style="text-align: center;"><img class="aligncenter size-full wp-image-155" src="/assets/ntlm.png" alt="" width="497" height="78" />
 flag_(1234567890)</h3>
 
 <hr />
@@ -31,7 +31,7 @@ rdka_(cmtuko_xf_wbswxysf) <strong>Key</strong>:MSKUBBT
 <strong>İpucu</strong>: Klasik Şifreleme Tekniklerine bir bak belki faydalı olur.
 
 <strong>Çözüm</strong>: Klasik bir şifreleme yöntemi olan Vigenére ile şifrelenmiş veriyi verilen key sayesinde decrypt ettik.
-<img class="aligncenter size-full wp-image-156" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/vigenere.png" alt="" width="714" height="233" />
+<img class="aligncenter size-full wp-image-156" src="/assets/vigenere.png" alt="" width="714" height="233" />
 <h3 style="text-align: center;">flag_(blaise_de_vigenere)</h3>
 
 <hr />
@@ -45,7 +45,7 @@ VmpJd2VFNUhSa2RpTTJoUVVucHNhRlV3V21GT1ZtUkZVMnRrYkZZeFNrbFphMmhMVjFVd2VXVklUbUZT
 
 <strong>Çözüm</strong>: Base64 ile ard arda decrypt ettiğimizde flag e ulaştık.
 
-<img class="aligncenter size-full wp-image-157" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/base64.png" alt="" width="600" height="310" />
+<img class="aligncenter size-full wp-image-157" src="/assets/base64.png" alt="" width="600" height="310" />
 <h3 style="text-align: center;">flag_(dur_artik_yeter_:D)</h3>
 
 <hr />
@@ -61,19 +61,19 @@ https://drive.google.com/open?id=0B0vTgPSJlq-4NkNxeWZQZHE5bG8
 
 <strong>Çözüm</strong>: Linkte verilen dosyanın içerisinde bir wav dosyası vardı.
 
-<img class="aligncenter size-full wp-image-159" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/waaaarar.png" alt="" width="438" height="105" />
+<img class="aligncenter size-full wp-image-159" src="/assets/waaaarar.png" alt="" width="438" height="105" />
 
 Bu ses dosyasının içinde ise arama esnasında basılan tuşların sesleri yer alıyordu. <a href="https://dialabc.com/sound/detect/">https://dialabc.com/sound/detect/</a> adresine giderek wav uzantılı dosyamı yükledim. Resimdeki sonuca ulaştım. 379009
 
-<img class="aligncenter size-full wp-image-158" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/dial.png" alt="" width="473" height="590" />
+<img class="aligncenter size-full wp-image-158" src="/assets/dial.png" alt="" width="473" height="590" />
 
 İpucundan yola çıkarak "379009" u digital font a çevirdim.
 
-<img class="aligncenter size-full wp-image-160" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/379.png" alt="" width="208" height="63" />
+<img class="aligncenter size-full wp-image-160" src="/assets/379.png" alt="" width="208" height="63" />
 
 Fotoğrafı ters çevirdiğimde ise flag e ulaştım.
 
-<img class="aligncenter size-full wp-image-161" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/googlr.png" alt="" width="210" height="62" />
+<img class="aligncenter size-full wp-image-161" src="/assets/googlr.png" alt="" width="210" height="62" />
 <h3 style="text-align: center;">flag_(google)</h3>
 
 <hr />
@@ -89,11 +89,11 @@ https://drive.google.com/open?id=0B0vTgPSJlq-4ZmRrejdidmR3eWM
 
 flags.htm dosyasını açtığımızda ise bu tarz bir içerikle karşılaştık.
 
-<img class="aligncenter size-full wp-image-162" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/f.png" alt="" width="1007" height="589" />
+<img class="aligncenter size-full wp-image-162" src="/assets/f.png" alt="" width="1007" height="589" />
 
 Dosyadaki kötü karakterleri (+:`#',@.;&amp;039) basit bir Python scripti ile sildik. Ve karşımıza sadece harflerden oluşan bir dizi geldi.
 
-<img class="aligncenter size-full wp-image-163" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/fso.png" alt="" width="736" height="490" /> <img class="aligncenter size-large wp-image-164" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/fsoci.png" alt="" width="736" height="490" />
+<img class="aligncenter size-full wp-image-163" src="/assets/fso.png" alt="" width="736" height="490" /> <img class="aligncenter size-large wp-image-164" src="/assets/fsoci.png" alt="" width="736" height="490" />
 <h3 style="text-align: center;">flag_(fsociety)</h3>
 
 <hr />
@@ -105,11 +105,11 @@ https://drive.google.com/open?id=0B0vTgPSJlq-4V2F0RmR1QVJmY3M
 
 <strong>Çözüm</strong>: Linkteki rar dosyasını indirip açtığımda web klasörünün içindeki Hahahaa!!.htm dosyasını açtım. Bu dosyayı açtığımda karşıma bir uyarı geliyor ve bu uyarıyı kapatmak istediğimde beni başka bir fotoğrafa yönlendiriyordu. Ben de kaynak kodunu inceledim. hook.js dosyasını açtığımda içinde bazı şifrelenmiş verilerin olduğunu gördüm.
 
-<img class="aligncenter size-full wp-image-165" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/hook.png" alt="" width="745" height="490" />
+<img class="aligncenter size-full wp-image-165" src="/assets/hook.png" alt="" width="745" height="490" />
 
 Bu şifreli verileri PHP decoder ile çözdüğümde flag e ulaştım.
 
-<img class="aligncenter size-full wp-image-166" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/flago.png" alt="" width="956" height="194" />
+<img class="aligncenter size-full wp-image-166" src="/assets/flago.png" alt="" width="956" height="194" />
 <h3 style="text-align: center;">flag_(oh_beee)</h3>
 
 <hr />
@@ -125,7 +125,7 @@ https://drive.google.com/open?id=0B0vTgPSJlq-4MUV3djItMHZQLUE
 
 <strong>Çözüm</strong>: Verilen linkteki dosya bir html dosyasıydı ve açıldığı zaman otomatik olarak bir YouTube videosuna yönlendiriyordu. html dosyasını bir text editör ile açarak içindeki flag i kolay bir şekilde bulduk.
 
-<img class="aligncenter size-full wp-image-167" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/zikir.png" alt="" width="736" height="490" />
+<img class="aligncenter size-full wp-image-167" src="/assets/zikir.png" alt="" width="736" height="490" />
 <h3 style="text-align: center;">flag_(you_shall_not_pass)</h3>
 
 <hr />
@@ -139,7 +139,7 @@ https://drive.google.com/open?id=0B0vTgPSJlq-4OHlLaUlLSFFrWHM
 
 <strong>Çözüm</strong>: İndirdiğimiz pcap dosyasını WireShark yazılımı ile açıp herhangi bir pakete sağ tıklatıp follow sekmesinden TCP yi seçtiğimzde flag i bulduk.
 
-<img class="aligncenter size-large wp-image-168" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/wire1-1024x555.png" alt="" width="1024" height="555" /> <img class="aligncenter size-large wp-image-169" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/wire2.png" alt="" width="910" height="741" />
+<img class="aligncenter size-large wp-image-168" src="/assets/wire1-1024x555.png" alt="" width="1024" height="555" /> <img class="aligncenter size-large wp-image-169" src="/assets/wire2.png" alt="" width="910" height="741" />
 <h3 style="text-align: center;">flag_(385b87afc8671dee07550290d16a8071)</h3>
 
 <hr />
@@ -151,11 +151,11 @@ https://drive.google.com/open?id=0B0vTgPSJlq-4VUppWlRrOHkwT0E
 
 <strong>Çözüm</strong>: İndirdiğimiz dosya shattered.pcapng adlı bir dosya idi. WireShark yazılımı ile dosya formatını pcap e çevirdik. tcpflow -d2 -r shattered.pcap komutu ile dosyayı yeniden inşa ettik ve pcap dosyasının bulunduğu klasörde bir fotoğraf oluştu.
 
-<img class="aligncenter size-full wp-image-170" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/shar.png" alt="" width="736" height="490" />
+<img class="aligncenter size-full wp-image-170" src="/assets/shar.png" alt="" width="736" height="490" />
 
 Flag fotoğrafın hemen alt kısmındaydı.
 
-<img class="aligncenter size-large wp-image-171" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/shar2-1024x576.png" alt="" width="1024" height="576" />
+<img class="aligncenter size-large wp-image-171" src="/assets/shar2-1024x576.png" alt="" width="1024" height="576" />
 <h3 style="text-align: center;">flag_(unshattered.jpg)</h3>
 
 <hr />
@@ -167,11 +167,11 @@ https://drive.google.com/open?id=0B0vTgPSJlq-4ZmlvUHJ3VFYxUHc
 
 <strong>Çözüm</strong>: İndirdiğimiz index.png dosyasını <a href="https://incoherency.co.uk/image-steganography/">https://incoherency.co.uk/image-steganography/</a> sitesindeki araca yükledik ve karşımıza fotoğrafın içinde gömülü olan bir QR Code çıktı.
 
-<img class="aligncenter size-full wp-image-172" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/aram.png" alt="" width="715" height="564" />
+<img class="aligncenter size-full wp-image-172" src="/assets/aram.png" alt="" width="715" height="564" />
 
 Basit bir QR Code yazılımı ile kodu okuttuğumuzda flag e ulaştık.
 
-<img class="aligncenter size-medium wp-image-173" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/vb862R-300x221.jpg" alt="" width="300" height="221" />
+<img class="aligncenter size-medium wp-image-173" src="/assets/vb862R-300x221.jpg" alt="" width="300" height="221" />
 <h3 style="text-align: center;">flag_(comar_mati)</h3>
 
 <hr />
@@ -185,11 +185,11 @@ https://drive.google.com/open?id=0B0vTgPSJlq-4cnZSQW1vbjIta1E
 
 <strong>Çözüm</strong>: Bu soru diğerlerine göre daha kolaydı diyebilirim. İndirdiğimiz dosya bir jpg dosyası ve soruda hash bırakmış demiş. Aklıma ilk olarak "strings" komutu geldi.
 
-<img class="aligncenter size-full wp-image-174" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/bu1.png" alt="" width="736" height="490" />
+<img class="aligncenter size-full wp-image-174" src="/assets/bu1.png" alt="" width="736" height="490" />
 
 Son satırda hash bilgisi yer alıyordu.
 
-<img class="aligncenter size-full wp-image-175" src="https://www.mehmetfatih.com/wp-content/uploads/2017/03/bu2.png" alt="" width="736" height="490" />
+<img class="aligncenter size-full wp-image-175" src="/assets/bu2.png" alt="" width="736" height="490" />
 <h3 style="text-align: center;">flag_(16bbee7466db38dad50701223d57ace8)</h3>
 
 <hr />
