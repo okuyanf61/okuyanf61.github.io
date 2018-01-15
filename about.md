@@ -8,4 +8,4 @@ I was born in Samsun in 1997. I completed primary and high school education in 4
 This blog contains Linux, Android, Java, Python etc. I will try to write them about as far as I know about them.
 
 
-You can find the source code for this site at [github.com/okuyanf61/okuyanf61.github.io](here)
+You can find the source code for this site at [here](https://github.com/okuyanf61/okuyanf61.github.io)
