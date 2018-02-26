@@ -100,7 +100,7 @@ permalink: /contact/
  color:#fff;
  background:#ff0a16;
  font-size:1.125rem;
- width:100%;
+ width:67%;
  border:1px solid #ba0009;
  border-width:1px 1px 3px;
  margin-top:3.125rem;
