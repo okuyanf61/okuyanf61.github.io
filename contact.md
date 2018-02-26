@@ -73,7 +73,7 @@ permalink: /contact/
  outline:none;
  display:block;
  color:#333;
- width:80%;
+ width:67%;
  padding:7px;
  border:none;
  border-bottom:1px solid #ddd;
