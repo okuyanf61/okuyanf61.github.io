@@ -7,6 +7,7 @@ permalink: /contact/
 <style type="text/css" media="screen">
   .container {
     margin: 0px auto;
+    max-width: 600px;
   }
   /* latin-ext */
 @font-face {
