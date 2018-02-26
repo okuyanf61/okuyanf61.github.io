@@ -10,7 +10,7 @@ permalink: /contact/
         <input type="hidden" name="_language" value="en" />
         <input type="text" name="name" placeholder="Your name">
         <input type="text" name="email" placeholder="Your e-mail">
-        <textarea name="message" onkeyup="adjust_textarea(this)" placeholder="Your message"></textarea>
+        <textarea name="message" placeholder="Your message"></textarea>
         <button type="submit">Send</button>
       </fieldset>
 </form>
