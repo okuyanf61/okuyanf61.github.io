@@ -11,6 +11,11 @@
     "icon": "fa-comments"
   },
   {
+    "text": "Contact Me",
+    "url": "/contact/",
+    "icon": "fa-envelope"
+  },
+  {
     "text": "Projects",
     "url": "/projects",
     "icon": "fa-desktop"
