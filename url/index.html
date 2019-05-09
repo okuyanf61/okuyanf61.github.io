@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Simple URL Shortener</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="favicon.ico"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="back.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="beforeload.js"></script>
+
+
+</head>
+<body style="background-color: #c850c0;background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);background: -o-linear-gradient(45deg, #4158d0, #c850c0);background: -moz-linear-gradient(45deg, #4158d0, #c850c0);background: linear-gradient(45deg, #4158d0, #c850c0)">
+
+
+  <div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <div class="fadeIn first">
+      <img src="avatar.png" id="icon"/>
+    </div>
+
+
+    <form>
+      <input type="url" id="urlinput" class="fadeIn second" placeholder="Paste the URL">
+      <input type="button" onclick="shorturl()" class="fadeIn third" value="Short The URL">
+      <input type="button" class="fadeIn fourth" value="Copy URL">
+    </form>
+
+
+    <div id="formFooter">
+      <a class="underlineHover" href="https://www.mehmetfatih.com" target="_blank">Mehmet Fatih Okuyan</a>
+    </div>
+
+  </div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
