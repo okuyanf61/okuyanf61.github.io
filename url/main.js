@@ -41,3 +41,7 @@ function shorturl(){
     send_request(longurl);
     document.getElementById("urlinput").value = window.location;
 }
+
+function copyurl(){
+    simplecopy(window.location.href);
+}
