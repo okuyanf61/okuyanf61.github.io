@@ -2,7 +2,7 @@
 layout: post
 title: "Presentation of My Country - TURKEY"
 date: 2016-12-26 14:28:17
-image: '/assets/img/'
+image: '/assets/img/blob-image.png'
 description: 'Presentation of My Country - TURKEY'
 tags:
 - turkey
