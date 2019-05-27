@@ -1,27 +1,52 @@
+# Site settings
 title: Mehmet Fatih Okuyan
 description: Personal Blog
-author: Mehmet Fatih Okuyan
-logo: /static/img/avatar.png
-github: https://github.com/okuyanf61
-about: Computer engineering student. Always hungry to keep learning.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.mehmetfatih.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-baseurl: "/"
-url: ""
+# User settings
+username: Mehmet Fatih Okuyan
+user_description: Computer science student. Always hungry to keep learning.
+user_title: Computer Science Student
+email: mehmetfatihokuyan@gmail.com
+twitter_username: okuyanf61
+github_username:  okuyanf61
+facebook_username:  okuyanf61
+instagram_username:  okuyanf61
+linkedin_username:  mehmet-fatih-okuyan
+gplus_username:  okuyanf61
+disqus_username: mehmetfatih
 
-allowsearch: true
-
-disqus_shortname: mehmetfatih
-google_analytics: UA-63123983-3
-
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
-
-enableTags: true
-tagarray: []
-
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+# Build settings
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+  - title: Resume
+    url: https://drive.google.com/file/d/1g2iemC0rsuzHiPLlWsVchq9YK7zQ-hQX/view?usp=sharing
+    external: true
+    target: _blank
+
+#  - title: Series
+#    url: /series
+    
+    
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

@@ -1,9 +1,18 @@
 ---
 layout: post
-title:  "Oracle VM Virtual Box ile Sanal Makineye Ubuntu Kurulumu"
-date:   2016-10-10 19:06:39
-categories: turkce
+title: "Oracle VM Virtual Box ile Sanal Makineye Ubuntu Kurulumu"
+date: 2016-10-10 19:06:39
+image: '/assets/img/'
+description: 'Oracle VM Virtual Box ile Sanal Makineye Ubuntu Kurulumu'
+tags:
+- linux
+- ubuntu
+- turkce
+categories:
+- turkce
+twitter_text: 'Oracle VM Virtual Box ile Sanal Makineye Ubuntu Kurulumu'
 ---
+
 En yaygın olarak kullanılan masaüstü Linux dağıtımlarından biri olan Ubuntu'nun son sürümü olan Ubuntu 16.04 LTS'yi Windows 7 işletim sistemine 2 aşamada  kuracağız.
 
 &nbsp;

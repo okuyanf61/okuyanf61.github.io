@@ -1,9 +1,18 @@
 ---
 layout: post
 title: "Mu Cyber CTF 2017 Write-Ups"
-date:   2017-12-01 23:30:17
-categories: turkce
+date: 2017-12-01 23:30:17
+image: '/assets/img/'
+description: 'Mu Cyber CTF 2017 Write-Ups'
+tags:
+- ctf
+- ceng
+- turkce
+categories:
+- turkce
+twitter_text: 'Mu Cyber CTF 2017 Write-Ups'
 ---
+
 
 ## Sorular
 
@@ -302,7 +311,7 @@ Bu​ ​sorumuzda​ ​karşımıza​ ​Mu-Cyber.exe​ ​adlı​ ​bir�
 üzerine​ ​getirdiğimizde​ ​kayan​ ​bir​ ​buton​ ​vardı.​ ​Butona​ ​tıklayabilmek​ ​için​ ​TAB+ENTER
 tuşlarına​ 998 ​kez​ ​basmamız​ ​gerekiyordu.​ ​Kısa​ ​bir​ ​yol​ ​olarak​ ​basit​ ​bir​ ​Autoit​ ​scripti​ ​yazarak
 kısa​ ​sürede​ ​flag​ ​değerine​ ​ulaşmamız​ ​mümkündü.
-![Nişasta](/assets/img/images/image25.png "998 mi?")
+![Nişasta](/assets/img/blog/image25.png "998 mi?")
 flag:​ **​mucyb3r_{auto_it_babe}**
 
 ### Ne​ ​Diyo​ ​Bu?​ ​-​ 500
@@ -323,8 +332,8 @@ motoruna​ ​"2011​ ​Erzurum"​ ​yazdığımızda​ ​ilk​ ​çık
 görüyoruz.
 Ardından​ ​​bu​ ​linke ​​​tıkladığımızda​ ​alt​ ​kısımda​ ​Dünya​ ​Üniversite​ ​Oyunları​ ​kısmında​ ​yaz
 olimpiyatlarının​ ​yapıldığı​ ​yıllar​ ​yazıyordu.
-![Nişasta](/assets/img/images/image24.png "Dünya Üniversite Oyunları")
+![Nişasta](/assets/img/blog/image24.png "Dünya Üniversite Oyunları")
 Yılları​ ​verilen​ ​sırayla​ ​yazdığımızda​ ​nişastanın​ ​hidroliz​ ​edilmesiyle​ ​oluşan​ ​karbonhidrat
 grubunun​ ​ismi​ ​olan​ ​DEKSTRİN​ ​flag​ ​değeri​ ​geliyordu.
-![Nişasta](/assets/img/images/image37.png "Dekstrin")
+![Nişasta](/assets/img/blog/image37.png "Dekstrin")
 flag:​ **​mucyb3r_{dekstrin}**
