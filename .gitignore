@@ -1,4 +1,8 @@
-Gemfile.lock
-_site/
-category/
-*~
+_site
+
+.sass
+-cache
+
+node_modules
+
+_drafts
