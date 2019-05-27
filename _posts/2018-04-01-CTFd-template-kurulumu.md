@@ -2,7 +2,7 @@
 layout: post
 title: "CTFd Platformu Kurulumu"
 date: 2018-04-01 06:00:0
-image: '/assets/img/'
+image: '/assets/img/blob-image.png'
 description: 'CTFd Platformu Kurulumu'
 tags:
 - ctf
