@@ -43,6 +43,10 @@ links:
     url: https://drive.google.com/file/d/1g2iemC0rsuzHiPLlWsVchq9YK7zQ-hQX/view?usp=sharing
     external: true
     target: _blank
+  - title: Privacy Policy
+    url: /privacy-policy
+  - title: Contact
+    url: /contact
 
 #  - title: Series
 #    url: /series
