@@ -53,7 +53,7 @@ $ ifconfig
 ```shell
 http:// makinenizin_ip_adresi 
 ```
-
+<br>
 
 Karşınıza aşağı yukarı böyle bir sayfa çıkması gerekiyor.
 
@@ -85,7 +85,7 @@ $ sudo mysql
 ```shell
 mysql> exit
 ```
-
+<br>
 
 ### Adım 3 - PHP Kurulumu
 
@@ -109,7 +109,7 @@ Bunu yapmak için, dir.conf dosyasını root ayrıcalıklarına sahip bir metin 
 ```shell
 $ sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
-
+<br>
 
 index.php satırın son sıralarında yer alıyor. Onu en başa taşıyoruz. Taşıdığımızda görüntü bu şekilde olacaktır. 
 
@@ -122,7 +122,7 @@ Değişikliklerin etkili olabilmesi için Apache'yi yeniden başlatmamız gerekl
 ```shell
 $ sudo systemctl restart apache2
 ```
-
+<br>
 Ayrıca apache2 hizmetinin durumunu şu komutla kontrol edebiliriz:
 
 ```shell
@@ -142,7 +142,7 @@ Dosyamızı oluşturmak için yine nano kullanacağız.
 ```shell
 $ sudo nano /var/www/info.php
 ```
-
+<br>
 ```php
 <?php phpinfo(); ?>
 ```
@@ -167,7 +167,7 @@ Test dosyasını kaldırmak için şu komutu kullanıyoruz:
 ```shell
 $ sudo rm /var/www/html/info.php
 ```
-
+<br>
 
 ### Sonuç
 
