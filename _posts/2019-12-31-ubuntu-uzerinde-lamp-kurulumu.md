@@ -54,6 +54,7 @@ $ ifconfig
 http:// makinenizin_ip_adresi 
 ```
 
+
 Karşınıza aşağı yukarı böyle bir sayfa çıkması gerekiyor.
 
 <img src="/assets/img/blog/lamp08.png" alt="5"/>
@@ -85,6 +86,7 @@ $ sudo mysql
 mysql> exit
 ```
 
+
 ### Adım 3 - PHP Kurulumu
 
 PHP, uygulamamızı çalıştırır. Komut dosyaları çalıştırabilir ve bilgi almak için MySQL veritabanlarınıza bağlanabilir.
@@ -108,6 +110,7 @@ Bunu yapmak için, dir.conf dosyasını root ayrıcalıklarına sahip bir metin 
 $ sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 
+
 index.php satırın son sıralarında yer alıyor. Onu en başa taşıyoruz. Taşıdığımızda görüntü bu şekilde olacaktır. 
 
 <img src="/assets/img/blog/lamp12.png" alt="9"/>
@@ -119,7 +122,9 @@ Değişikliklerin etkili olabilmesi için Apache'yi yeniden başlatmamız gerekl
 ```shell
 $ sudo systemctl restart apache2
 ```
+
 Ayrıca apache2 hizmetinin durumunu şu komutla kontrol edebiliriz:
+
 ```shell
 $ sudo systemctl status apache2
 ```
@@ -127,6 +132,7 @@ $ sudo systemctl status apache2
 <img src="/assets/img/blog/lamp02.png" alt="10"/>
 
 Çıkmak için Q tuşuna basabilirsiniz.
+
 
 ### Adım 4 - PHP'yi Test Etme
 
@@ -136,6 +142,7 @@ Dosyamızı oluşturmak için yine nano kullanacağız.
 ```shell
 $ sudo nano /var/www/info.php
 ```
+
 ```php
 <?php phpinfo(); ?>
 ```
@@ -160,6 +167,7 @@ Test dosyasını kaldırmak için şu komutu kullanıyoruz:
 ```shell
 $ sudo rm /var/www/html/info.php
 ```
+
 
 ### Sonuç
 
