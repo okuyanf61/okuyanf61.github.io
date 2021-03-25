@@ -2,7 +2,7 @@
 layout: post
 title: "Oracle VM Virtual Box ile Sanal Makineye Ubuntu Kurulumu"
 date: 2016-10-10 19:06:39
-image: '/assets/img/blob-image.png'
+image: '/assets/img/blog-image.png'
 description: 'Oracle VM Virtual Box ile Sanal Makineye Ubuntu Kurulumu'
 tags:
 - linux
