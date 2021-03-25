@@ -2,7 +2,7 @@
 layout: post
 title: "Natural Beauties of Turkey"
 date: 2016-12-25 23:15:45
-image: '/assets/img/blob-image.png'
+image: '/assets/img/blog-image.png'
 description: 'Natural Beauties of Turkey'
 tags:
 - turkey
