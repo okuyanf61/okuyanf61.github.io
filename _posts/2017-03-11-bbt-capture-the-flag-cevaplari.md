@@ -2,7 +2,7 @@
 layout: post
 title: "BBT - Capture The Flag Cevapları"
 date: 2017-03-11 23:30:17
-image: '/assets/img/blob-image.png'
+image: '/assets/img/blog-image.png'
 description: 'BBT - Capture The Flag Cevapları'
 tags:
 - ctf
