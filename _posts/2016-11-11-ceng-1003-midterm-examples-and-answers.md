@@ -2,7 +2,7 @@
 layout: post
 title: "CENG 1003 Midterm Examples and Answers"
 date: 2016-11-11 20:51:39
-image: '/assets/img/blob-image.png'
+image: '/assets/img/blog-image.png'
 description: 'CENG 1003 Midterm Examples and Answers'
 tags:
 - ceng
