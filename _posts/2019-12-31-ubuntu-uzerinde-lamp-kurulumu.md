@@ -2,7 +2,7 @@
 layout: post
 title: "Ubuntu Üzerine LAMP (Linux, Apache, MySQL, PHP) nasıl kurulur?"
 date: 2019-12-31 09:00:00
-image: '/assets/img/blob-image.png'
+image: '/assets/img/blog-image.png'
 description: 'Ubuntu 18.04'
 tags:
 - linux
