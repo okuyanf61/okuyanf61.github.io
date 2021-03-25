@@ -2,7 +2,7 @@
 layout: post
 title: "Mu Cyber CTF 2017 Write-Ups"
 date: 2017-12-01 23:30:17
-image: '/assets/img/blob-image.png'
+image: '/assets/img/blog-image.png'
 description: 'Mu Cyber CTF 2017 Write-Ups'
 tags:
 - ctf
