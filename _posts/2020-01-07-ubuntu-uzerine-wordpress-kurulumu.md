@@ -2,7 +2,7 @@
 layout: post
 title: "Ubuntu Üzerine WordPress nasıl kurulur?"
 date: 2020-01-07 18:00:00
-image: '/assets/img/blob-image.png'
+image: '/assets/img/blog-image.png'
 description: 'Ubuntu 18.04 LAMP'
 tags:
 - linux
